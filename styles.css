@@ -1,0 +1,68 @@
+*{
+    
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+/* navbar*/
+/*sidebar*/
+
+.sidebar{
+    width: 8rem;
+    height: 100%;
+    background-color: lightgray;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.menuicon {
+    margin-top: 3rem;
+    cursor: pointer;
+
+}
+.menuicon:hover .line {
+    width: 2.5rem;
+}
+
+.line {
+    height: .2rem;
+    width: 2.5rem;
+    background-color: #222;
+    margin-bottom: .6rem;
+}
+
+.line1, .line3{
+    width: 1.8rem;
+    transition: width .3s ;
+}
+.social-icon-list{
+    list-style: none;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 0;
+    align-items: center;
+}
+.social-link{
+    font-size: 2rem;
+    color: #777;
+    transition: color .3s;
+}
+.social-link:hover{
+    color: brown;
+
+}
+.year{
+    font-size: 2rem;
+    text-align: center;
+}
+
+/*end of sidebar*/
+/* end of navbar*/
